@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cc/syscall_intercept/test/mock_trampoline_table.S
+
+/home/cc/syscall_intercept/test/pattern4.in.S
+mock_trampoline_table.S
+/home/cc/syscall_intercept/test/mock_trampoline_table.S
+

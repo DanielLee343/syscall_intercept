@@ -1,0 +1,2 @@
+/home/cc/syscall_intercept/CMakeFiles/CheckCXX/CMakeFiles/rebuild_cache.dir
+/home/cc/syscall_intercept/CMakeFiles/CheckCXX/CMakeFiles/edit_cache.dir

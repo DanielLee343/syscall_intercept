@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC  -Werror -Wall -Wextra -pedantic -Wno-missing-field-initializers  -shared -Wl,-soname,libsyscall_intercept.so.0 -o CMakeFiles/CMakeRelink.dir/libsyscall_intercept.so.0.1.0 syscall_intercept_scoped.o  -ldl -Wl,--push-state,-Bdynamic -lcapstone -Wl,--pop-state -Wl,--version-script=/home/cc/syscall_intercept/version.map 

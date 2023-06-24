@@ -1,0 +1,1 @@
+/usr/bin/clang  -Werror -Wall -Wextra -pedantic -Wno-missing-field-initializers  -rdynamic CMakeFiles/syscall_format.dir/syscall_format.c.o  -o syscall_format  -Wl,-rpath,/home/cc/syscall_intercept ../libsyscall_intercept.so.0.1.0 

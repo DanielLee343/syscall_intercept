@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC  -nostdlib -shared  -o libpattern2.in.so CMakeFiles/pattern2.in.dir/pattern2.in.S.o 

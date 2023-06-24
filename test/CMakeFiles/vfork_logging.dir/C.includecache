@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cc/syscall_intercept/test/vfork_logging.c
+assert.h
+-
+err.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+magic_syscalls.h
+/home/cc/syscall_intercept/test/magic_syscalls.h
+
+src/magic_syscalls.h
+syscall.h
+-
+unistd.h
+-
+
