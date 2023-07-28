@@ -1,0 +1,6 @@
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(8765, "dummy_data\0", 11) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(8765, "dummy_data\0", 11) = 5
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(8765, "thin", 4) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(8765, "thin", 4) = -9 EBADF (Bad file number)
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(8765, "dummy_data\0", 11) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(8765, "dummy_data\0", 11) = 5

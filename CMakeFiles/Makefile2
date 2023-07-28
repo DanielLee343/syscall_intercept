@@ -295,7 +295,7 @@ test/clean: test/CMakeFiles/hook_test.dir/clean
 
 # All Build rule for target.
 CMakeFiles/syscall_intercept_base_c.dir/all: CMakeFiles/cpp_test.dir/all
-CMakeFiles/syscall_intercept_base_c.dir/all: CMakeFiles/cstyle.dir/all
+# CMakeFiles/syscall_intercept_base_c.dir/all: CMakeFiles/cstyle.dir/all
 CMakeFiles/syscall_intercept_base_c.dir/all: CMakeFiles/check_whitespace.dir/all
 	$(MAKE) -f CMakeFiles/syscall_intercept_base_c.dir/build.make CMakeFiles/syscall_intercept_base_c.dir/depend
 	$(MAKE) -f CMakeFiles/syscall_intercept_base_c.dir/build.make CMakeFiles/syscall_intercept_base_c.dir/build

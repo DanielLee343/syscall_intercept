@@ -23,52 +23,62 @@ char *g_line = NULL;
 size_t len = 0;
 pthread_mutex_t count_mutex;
 
-void redirect_stdout(char *filename) {
+void redirect_stdout(char *filename)
+{
   int fd;
-  if ((fd = open(filename, O_CREAT | O_WRONLY, 0666)) < 0) {
+  if ((fd = open(filename, O_CREAT | O_WRONLY, 0666)) < 0)
+  {
     perror(filename);
     exit(1);
   }
   close(1);
-  if (dup(fd) != 1) {
+  if (dup(fd) != 1)
+  {
     fprintf(stderr, "Unexpected dup failure\n");
     exit(1);
   }
   close(fd);
 
   g_fp = fopen("call_stack.txt", "w+");
-  if (g_fp == NULL) {
+  if (g_fp == NULL)
+  {
     printf("Error when try to use fopen!!\n");
   }
 }
-long int hash(char *word) {
+long int hash(char *word)
+{
   unsigned int hash = 0;
-  for (int i = 0; word[i] != '\0'; i++) {
+  for (int i = 0; word[i] != '\0'; i++)
+  {
     hash = 31 * hash + word[i];
   }
   // return hash % TABLE_SIZE;
   return abs(hash);
 }
 
-void inspect_source_code(char *filename) {
-    FILE* file = fopen(filename, "r");
-    if (file == NULL) {
-        printf("Failed to open the file.\n");
-        exit(1);
-    }
+void inspect_source_code(char *filename)
+{
+  FILE *file = fopen(filename, "r");
+  if (file == NULL)
+  {
+    printf("Failed to open the file.\n");
+    exit(1);
+  }
 
-    // Read and print each line
-    char line[256];  // Assuming lines are not longer than 255 characters
-    while (fgets(line, sizeof(line), file) != NULL) {
-        // printf("%s", line);
-        fprintf(stderr, "%s", line);
-    }
+  // Read and print each line
+  char line[256]; // Assuming lines are not longer than 255 characters
+  while (fgets(line, sizeof(line), file) != NULL)
+  {
+    // printf("%s", line);
+    fprintf(stderr, "%s", line);
+  }
 
-    // Close the file
-    fclose(file);
+  // Close the file
+  fclose(file);
 }
 
-void get_call_stack(int size_allocation, char *call_stack_concat) {
+void get_call_stack(int size_allocation, char *call_stack_concat)
+{
   int static mmap_id = 0;
   int nptrs;
   void *buffer[SIZE];
@@ -123,21 +133,23 @@ void get_call_stack(int size_allocation, char *call_stack_concat) {
   // strcat(call_stack_concat, size);
   // fprintf(stderr, "cleaned call_stack_concat: %s\n", call_stack_concat);
 }
-void* roundUpToPage(void* addr) {
-    long pageSize = sysconf(_SC_PAGESIZE); // Get the system's page size
-    uintptr_t address = (uintptr_t)addr; // Cast the address to uintptr_t
+void *roundUpToPage(void *addr)
+{
+  long pageSize = sysconf(_SC_PAGESIZE); // Get the system's page size
+  uintptr_t address = (uintptr_t)addr;   // Cast the address to uintptr_t
 
-    // Calculate the number of pages to add to round up the address
-    uintptr_t numPages = (address + pageSize - 1) / pageSize;
+  // Calculate the number of pages to add to round up the address
+  uintptr_t numPages = (address + pageSize - 1) / pageSize;
 
-    // Round up the address to the nearest page address
-    uintptr_t roundedAddress = numPages * pageSize;
+  // Round up the address to the nearest page address
+  uintptr_t roundedAddress = numPages * pageSize;
 
-    return (void*)roundedAddress; // Cast the rounded address back to void*
+  return (void *)roundedAddress; // Cast the rounded address back to void*
 }
 
 static int hook(long syscall_number, long arg0, long arg1, long arg2, long arg3,
-                long arg4, long arg5, long *result) {
+                long arg4, long arg5, long *result)
+{
   int static mmap_id = 0;
   struct timespec ts;
   char call_stack_concat[SIZE] = "";
@@ -145,7 +157,8 @@ static int hook(long syscall_number, long arg0, long arg1, long arg2, long arg3,
   unsigned long g_nodemask_2;
   pthread_mutex_init(&count_mutex, NULL);
   // printf("%ld\n", syscall_number);
-  if (syscall_number == SYS_mmap) {
+  if (syscall_number == SYS_mmap)
+  {
     *result = syscall_no_intercept(syscall_number, arg0, arg1, arg2, arg3, arg4,
                                    arg5);
     // fprintf(stderr, "mmap addr: %ld, size: %ld, prot: %ld, flags: %ld, fd:
@@ -165,7 +178,6 @@ static int hook(long syscall_number, long arg0, long arg1, long arg2, long arg3,
     fprintf(stderr, "%ld%ld,mmap,%ld,%p,%ld\n", ts.tv_sec, ts.tv_nsec,
             start_addr, (void *)*result, arg1);
     pthread_mutex_unlock(&count_mutex);
-
 
     // if (
     //     // (void *)*result == addr1_to_move ||
@@ -199,7 +211,9 @@ static int hook(long syscall_number, long arg0, long arg1, long arg2, long arg3,
     // }
 
     return 0;
-  } else if (syscall_number == SYS_munmap) {
+  }
+  else if (syscall_number == SYS_munmap)
+  {
     /* pass it on to the kernel */
     *result = syscall_no_intercept(syscall_number, arg0, arg1, arg2, arg3, arg4,
                                    arg5);
@@ -217,16 +231,17 @@ static int hook(long syscall_number, long arg0, long arg1, long arg2, long arg3,
   //     "%ld.%ld, alloc_hp,%p,%ld\n", ts.tv_sec,ts.tv_nsec, (void *)arg0,
   //     arg1); return 0;
   // }
-//   else if (syscall_number == SYS_brk) {
-//     *result = syscall_no_intercept(syscall_number, arg0, arg1, arg2, arg3, arg4,
-//                                    arg5);
-//     clock_gettime(CLOCK_MONOTONIC, &ts);
-//     uintptr_t start_addr = (uintptr_t)(void *)arg0;
-//     fprintf(stderr, "%ld%ld,brk,%lu,%p,%ld\n", ts.tv_sec, ts.tv_nsec,
-//             start_addr, (void *)*result, arg1);
-//     return 0;
-//   } 
-  else {
+  //   else if (syscall_number == SYS_brk) {
+  //     *result = syscall_no_intercept(syscall_number, arg0, arg1, arg2, arg3, arg4,
+  //                                    arg5);
+  //     clock_gettime(CLOCK_MONOTONIC, &ts);
+  //     uintptr_t start_addr = (uintptr_t)(void *)arg0;
+  //     fprintf(stderr, "%ld%ld,brk,%lu,%p,%ld\n", ts.tv_sec, ts.tv_nsec,
+  //             start_addr, (void *)*result, arg1);
+  //     return 0;
+  //   }
+  else
+  {
     /*
      * Ignore any other syscalls
      * i.e.: pass them on to the kernel
@@ -236,10 +251,11 @@ static int hook(long syscall_number, long arg0, long arg1, long arg2, long arg3,
   }
 }
 
-static __attribute__((constructor)) void init(void) {
+static __attribute__((constructor)) void init(void)
+{
   // Set up the callback function
   setvbuf(stdout, NULL, _IONBF, 0); // avoid buffer from printf
-//   redirect_stdout("/home/cc/call_stack.txt");
-//   inspect_source_code("/home/cc/res.txt");
+                                    //   redirect_stdout("/home/cc/call_stack.txt");
+                                    //   inspect_source_code("/home/cc/res.txt");
   intercept_hook_point = hook;
 }

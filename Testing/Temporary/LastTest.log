@@ -1,0 +1,738 @@
+Start testing: Jun 24 20:30 UTC
+----------------------------------------------------------
+1/43 Testing: asm_pattern_nosyscall
+1/43 Test: asm_pattern_nosyscall
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libnosyscall.in.so" "/home/cc/syscall_intercept/test/libnosyscall.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_nosyscall" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_nosyscall" end time: Jun 24 20:30 UTC
+"asm_pattern_nosyscall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/43 Testing: asm_pattern_pattern1
+2/43 Test: asm_pattern_pattern1
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern1.in.so" "/home/cc/syscall_intercept/test/libpattern1.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern1" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern1" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/43 Testing: asm_pattern_pattern2
+3/43 Test: asm_pattern_pattern2
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern2.in.so" "/home/cc/syscall_intercept/test/libpattern2.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern2" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern2" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/43 Testing: asm_pattern_pattern3
+4/43 Test: asm_pattern_pattern3
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern3.in.so" "/home/cc/syscall_intercept/test/libpattern3.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern3" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern3" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/43 Testing: asm_pattern_pattern4
+5/43 Test: asm_pattern_pattern4
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern4.in.so" "/home/cc/syscall_intercept/test/libpattern4.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern4" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern4" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/43 Testing: asm_pattern_pattern_loop
+6/43 Test: asm_pattern_pattern_loop
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_loop.in.so" "/home/cc/syscall_intercept/test/libpattern_loop.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_loop" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_loop" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_loop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/43 Testing: asm_pattern_pattern_loop2
+7/43 Test: asm_pattern_pattern_loop2
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_loop2.in.so" "/home/cc/syscall_intercept/test/libpattern_loop2.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_loop2" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_loop2" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_loop2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/43 Testing: asm_pattern_pattern_symbol_boundary0
+8/43 Test: asm_pattern_pattern_symbol_boundary0
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary0.in.so" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary0.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_symbol_boundary0" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_symbol_boundary0" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_symbol_boundary0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/43 Testing: asm_pattern_pattern_symbol_boundary1
+9/43 Test: asm_pattern_pattern_symbol_boundary1
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary1.in.so" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary1.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_symbol_boundary1" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_symbol_boundary1" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_symbol_boundary1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/43 Testing: asm_pattern_pattern_symbol_boundary2
+10/43 Test: asm_pattern_pattern_symbol_boundary2
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary2.in.so" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary2.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_symbol_boundary2" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_symbol_boundary2" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_symbol_boundary2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/43 Testing: asm_pattern_pattern_symbol_boundary3
+11/43 Test: asm_pattern_pattern_symbol_boundary3
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary3.in.so" "/home/cc/syscall_intercept/test/libpattern_symbol_boundary3.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_symbol_boundary3" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_symbol_boundary3" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_symbol_boundary3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/43 Testing: asm_pattern_pattern_nop_padding0
+12/43 Test: asm_pattern_pattern_nop_padding0
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding0.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding0.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding0" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding0" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/43 Testing: asm_pattern_pattern_nop_padding1
+13/43 Test: asm_pattern_pattern_nop_padding1
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding1.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding1.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding1" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding1" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/43 Testing: asm_pattern_pattern_nop_padding2
+14/43 Test: asm_pattern_pattern_nop_padding2
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding2.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding2.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding2" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding2" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/43 Testing: asm_pattern_pattern_nop_padding3
+15/43 Test: asm_pattern_pattern_nop_padding3
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding3.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding3.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding3" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding3" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/43 Testing: asm_pattern_pattern_nop_padding4
+16/43 Test: asm_pattern_pattern_nop_padding4
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding4.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding4.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding4" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding4" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/43 Testing: asm_pattern_pattern_nop_padding5
+17/43 Test: asm_pattern_pattern_nop_padding5
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding5.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding5.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding5" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding5" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/43 Testing: asm_pattern_pattern_nop_padding6
+18/43 Test: asm_pattern_pattern_nop_padding6
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding6.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding6.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding6" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding6" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/43 Testing: asm_pattern_pattern_nop_padding7
+19/43 Test: asm_pattern_pattern_nop_padding7
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding7.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding7.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding7" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding7" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/43 Testing: asm_pattern_pattern_nop_padding8
+20/43 Test: asm_pattern_pattern_nop_padding8
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding8.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding8.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding8" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding8" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/43 Testing: asm_pattern_pattern_nop_padding9
+21/43 Test: asm_pattern_pattern_nop_padding9
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_nop_padding9.in.so" "/home/cc/syscall_intercept/test/libpattern_nop_padding9.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_nop_padding9" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_nop_padding9" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_nop_padding9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/43 Testing: asm_pattern_pattern_lea_rip_rdi
+22/43 Test: asm_pattern_pattern_lea_rip_rdi
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_lea_rip_rdi.in.so" "/home/cc/syscall_intercept/test/libpattern_lea_rip_rdi.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_lea_rip_rdi" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_lea_rip_rdi" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_lea_rip_rdi" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/43 Testing: asm_pattern_pattern_lea_rip_r12
+23/43 Test: asm_pattern_pattern_lea_rip_r12
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_lea_rip_r12.in.so" "/home/cc/syscall_intercept/test/libpattern_lea_rip_r12.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_lea_rip_r12" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_lea_rip_r12" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_lea_rip_r12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/43 Testing: asm_pattern_pattern_endbr64
+24/43 Test: asm_pattern_pattern_endbr64
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_endbr64.in.so" "/home/cc/syscall_intercept/test/libpattern_endbr64.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_endbr64" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asm_pattern_pattern_endbr64" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_endbr64" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/43 Testing: asm_pattern_pattern_double_syscall
+25/43 Test: asm_pattern_pattern_double_syscall
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_double_syscall.in.so" "/home/cc/syscall_intercept/test/libpattern_double_syscall.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_double_syscall" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+not enough space for patching around syscal libsyscall_intercept error
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression not found. Regex=[Invalid patch
+]
+"asm_pattern_pattern_double_syscall" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_double_syscall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/43 Testing: asm_pattern_pattern_rets
+26/43 Test: asm_pattern_pattern_rets
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_rets.in.so" "/home/cc/syscall_intercept/test/libpattern_rets.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_rets" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+not enough space for patching around syscal libsyscall_intercept error
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression not found. Regex=[Invalid patch
+]
+"asm_pattern_pattern_rets" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_rets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/43 Testing: asm_pattern_pattern_jmps
+27/43 Test: asm_pattern_pattern_jmps
+Command: "/home/cc/syscall_intercept/test/asm_pattern" "/home/cc/syscall_intercept/test/libpattern_jmps.in.so" "/home/cc/syscall_intercept/test/libpattern_jmps.out.so"
+Directory: /home/cc/syscall_intercept/test
+"asm_pattern_pattern_jmps" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+not enough space for patching around syscal libsyscall_intercept error
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression not found. Regex=[Invalid patch
+]
+"asm_pattern_pattern_jmps" end time: Jun 24 20:30 UTC
+"asm_pattern_pattern_jmps" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/43 Testing: fork_logging
+28/43 Test: fork_logging
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_NAME=logging" "-DLIB_FILE=/home/cc/syscall_intercept/libsyscall_intercept.so.0.1.0" "-DTEST_PROG=/home/cc/syscall_intercept/test/fork_logging" "-DTEST_PROG_ARG=/home/cc/syscall_intercept/test/fork_logging.c" "-DHAS_SECOND_LOG=1" "-DMATCH_FILE=/home/cc/syscall_intercept/test/libcintercept0.log.match" "-DSECOND_MATCH_FILE=/home/cc/syscall_intercept/test/libcintercept0_child.log.match" "-DMATCH_SCRIPT=/home/cc/syscall_intercept/utils/match.pl" "-DEXPECT_SPURIOUS_SYSCALLS=OFF" "-P" "/home/cc/syscall_intercept/test/check_log.cmake"
+Directory: /home/cc/syscall_intercept/test
+"fork_logging" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+Executing: LD_PRELOAD=/home/cc/syscall_intercept/libsyscall_intercept.so.0.1.0
+		INTERCEPT_ALL_OBJS=1
+		/home/cc/syscall_intercept/test/fork_logging /home/cc/syscall_intercept/test/fork_logging.c .log.logging .log.2.logging
+//*/*
+
+Done being busy here
+//*/*
+
+Done being busy here
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"fork_logging" end time: Jun 24 20:30 UTC
+"fork_logging" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/43 Testing: hook_with_shared
+29/43 Test: hook_with_shared
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_NAME=hook" "-DLIB_FILE=/home/cc/syscall_intercept/test/libhook_test_preload_with_shared.so" "-DTEST_PROG=/home/cc/syscall_intercept/test/hook_test" "-DTEST_PROG_ARG=None" "-DMATCH_FILE=/home/cc/syscall_intercept/test/libcintercept1.log.match" "-DMATCH_SCRIPT=/home/cc/syscall_intercept/utils/match.pl" "-DEXPECT_SPURIOUS_SYSCALLS=OFF" "-P" "/home/cc/syscall_intercept/test/check_log.cmake"
+Directory: /home/cc/syscall_intercept/test
+"hook_with_shared" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+Executing: LD_PRELOAD=/home/cc/syscall_intercept/test/libhook_test_preload_with_shared.so
+		INTERCEPT_ALL_OBJS=1
+		/home/cc/syscall_intercept/test/hook_test None .log.hook
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"hook_with_shared" end time: Jun 24 20:30 UTC
+"hook_with_shared" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/43 Testing: hook_with_static
+30/43 Test: hook_with_static
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_NAME=hook" "-DLIB_FILE=/home/cc/syscall_intercept/test/libhook_test_preload_with_static.so" "-DTEST_PROG=/home/cc/syscall_intercept/test/hook_test" "-DTEST_PROG_ARG=None" "-DMATCH_FILE=/home/cc/syscall_intercept/test/libcintercept1.log.match" "-DMATCH_SCRIPT=/home/cc/syscall_intercept/utils/match.pl" "-DEXPECT_SPURIOUS_SYSCALLS=OFF" "-P" "/home/cc/syscall_intercept/test/check_log.cmake"
+Directory: /home/cc/syscall_intercept/test
+"hook_with_static" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+Executing: LD_PRELOAD=/home/cc/syscall_intercept/test/libhook_test_preload_with_static.so
+		INTERCEPT_ALL_OBJS=1
+		/home/cc/syscall_intercept/test/hook_test None .log.hook
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"hook_with_static" end time: Jun 24 20:30 UTC
+"hook_with_static" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/43 Testing: hook_clone
+31/43 Test: hook_clone
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_NAME=hook_clone" "-DLIB_FILE=/home/cc/syscall_intercept/test/libhook_test_clone_preload.so" "-DTEST_PROG=/home/cc/syscall_intercept/test/fork_logging" "-DTEST_PROG_ARG=/home/cc/syscall_intercept/test/fork_logging.c" "-DMATCH_FILE=/home/cc/syscall_intercept/test/libcintercept0.log.match" "-DHAS_SECOND_LOG=1" "-DSECOND_MATCH_FILE=/home/cc/syscall_intercept/test/libcintercept0_child.log.match" "-DMATCH_SCRIPT=/home/cc/syscall_intercept/utils/match.pl" "-DEXPECT_SPURIOUS_SYSCALLS=OFF" "-P" "/home/cc/syscall_intercept/test/check_log.cmake"
+Directory: /home/cc/syscall_intercept/test
+"hook_clone" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+Executing: LD_PRELOAD=/home/cc/syscall_intercept/test/libhook_test_clone_preload.so
+		INTERCEPT_ALL_OBJS=1
+		/home/cc/syscall_intercept/test/fork_logging /home/cc/syscall_intercept/test/fork_logging.c .log.hook_clone .log.2.hook_clone
+//*/*
+
+Done being busy here
+//*/*
+
+Done being busy here
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"hook_clone" end time: Jun 24 20:30 UTC
+"hook_clone" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/43 Testing: filter_none
+32/43 Test: filter_none
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_PROG=/home/cc/syscall_intercept/test/filter_test" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"filter_none" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+hooked - allowed
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[hooked - allowed]
+"filter_none" end time: Jun 24 20:30 UTC
+"filter_none" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/43 Testing: filter_positive
+33/43 Test: filter_positive
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DFILTER=filter_test" "-DTEST_PROG=/home/cc/syscall_intercept/test/filter_test" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"filter_positive" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+FILTER: filter_test
+hooked - allowed
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[hooked - allowed]
+"filter_positive" end time: Jun 24 20:30 UTC
+"filter_positive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/43 Testing: filter_negative
+34/43 Test: filter_negative
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DFILTER=non_matching_filter" "-DTEST_PROG=/home/cc/syscall_intercept/test/filter_test" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"filter_negative" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+FILTER: non_matching_filter
+disallowed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[disallowed]
+"filter_negative" end time: Jun 24 20:30 UTC
+"filter_negative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/43 Testing: filter_negative_substring0
+35/43 Test: filter_negative_substring0
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DFILTER_PLUS_ONECHAR=filter_test" "-DTEST_PROG=/home/cc/syscall_intercept/test/filter_test" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"filter_negative_substring0" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+FILTER: ilter_test
+disallowed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[disallowed]
+"filter_negative_substring0" end time: Jun 24 20:30 UTC
+"filter_negative_substring0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/43 Testing: filter_negative_substring1
+36/43 Test: filter_negative_substring1
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DFILTER=Afilter_test" "-DTEST_PROG=/home/cc/syscall_intercept/test/filter_test" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"filter_negative_substring1" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+FILTER: Afilter_test
+disallowed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[disallowed]
+"filter_negative_substring1" end time: Jun 24 20:30 UTC
+"filter_negative_substring1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/43 Testing: clone_thread
+37/43 Test: clone_thread
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DFILTER=" "-DTEST_PROG=/home/cc/syscall_intercept/test/test_clone_thread" "-DLIB_FILE=/home/cc/syscall_intercept/test/libtest_clone_thread_preload.so" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"clone_thread" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+clone_hook_child called
+
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[clone_hook_child called]
+"clone_thread" end time: Jun 24 20:30 UTC
+"clone_thread" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/43 Testing: prog_pie_intercept_libc_only
+38/43 Test: prog_pie_intercept_libc_only
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_PROG=/home/cc/syscall_intercept/test/executable_with_syscall_pie" "-DLIB_FILE=/home/cc/syscall_intercept/test/libintercept_sys_write.so" "-DTEST_PROG_ARGS=original_syscall" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"prog_pie_intercept_libc_only" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+original_syscall
+
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[original_syscall]
+"prog_pie_intercept_libc_only" end time: Jun 24 20:30 UTC
+"prog_pie_intercept_libc_only" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/43 Testing: prog_no_pie_intercept_libc_only
+39/43 Test: prog_no_pie_intercept_libc_only
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_PROG=/home/cc/syscall_intercept/test/executable_with_syscall_no_pie" "-DLIB_FILE=/home/cc/syscall_intercept/test/libintercept_sys_write.so" "-DTEST_PROG_ARGS=original_syscall" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"prog_no_pie_intercept_libc_only" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+original_syscall
+
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[original_syscall]
+"prog_no_pie_intercept_libc_only" end time: Jun 24 20:30 UTC
+"prog_no_pie_intercept_libc_only" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/43 Testing: prog_pie_intercept_all
+40/43 Test: prog_pie_intercept_all
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DINTERCEPT_ALL=1" "-DTEST_PROG=/home/cc/syscall_intercept/test/executable_with_syscall_pie" "-DLIB_FILE=/home/cc/syscall_intercept/test/libintercept_sys_write.so" "-DTEST_PROG_ARGS=original_syscall" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"prog_pie_intercept_all" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+intercepted_call
+
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[intercepted_call]
+"prog_pie_intercept_all" end time: Jun 24 20:30 UTC
+"prog_pie_intercept_all" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/43 Testing: prog_no_pie_intercept_all
+41/43 Test: prog_no_pie_intercept_all
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DINTERCEPT_ALL=1" "-DTEST_PROG=/home/cc/syscall_intercept/test/executable_with_syscall_no_pie" "-DLIB_FILE=/home/cc/syscall_intercept/test/libintercept_sys_write.so" "-DTEST_PROG_ARGS=original_syscall" "-P" "/home/cc/syscall_intercept/test/check.cmake"
+Directory: /home/cc/syscall_intercept/test
+"prog_no_pie_intercept_all" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+intercepted_call
+
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[intercepted_call]
+"prog_no_pie_intercept_all" end time: Jun 24 20:30 UTC
+"prog_no_pie_intercept_all" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/43 Testing: vfork_logging
+42/43 Test: vfork_logging
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_PROG=/home/cc/syscall_intercept/test/vfork_logging" "-DLIB_FILE=/home/cc/syscall_intercept/libsyscall_intercept.so.0.1.0" "-DMATCH_FILE=/home/cc/syscall_intercept/test/libcintercept2.log.match" "-DTEST_NAME=vfork_logging" "-DMATCH_SCRIPT=/home/cc/syscall_intercept/utils/match.pl" "-DEXPECT_SPURIOUS_SYSCALLS=OFF" "-P" "/home/cc/syscall_intercept/test/check_log.cmake"
+Directory: /home/cc/syscall_intercept/test
+"vfork_logging" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+Executing: LD_PRELOAD=/home/cc/syscall_intercept/libsyscall_intercept.so.0.1.0
+		INTERCEPT_ALL_OBJS=1
+		/home/cc/syscall_intercept/test/vfork_logging  .log.vfork_logging
+In original process, after first vfork
+In original process, after second vfork
+in_child_created_using_vfork
+[MATCHING FAILED, COMPLETE FILE (.log.vfork_logging) BELOW]
+/lib/x86_64-linux-gnu/libc.so.6 0xe30da -- vfork() = ?
+/lib/x86_64-linux-gnu/libc.so.6 0xe3144 -- exit_group(0x0)
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after first vfork\n", 39) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after first vfork\n", 39) = 39
+/lib/x86_64-linux-gnu/libc.so.6 0xe30da -- vfork() = ?
+/lib/x86_64-linux-gnu/libc.so.6 0xe3179 -- execve(0x7ffe379ce0d3, 0x7ffe379cd368, 0x7ffe379cd360) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after second vfork\n", 40) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after second vfork\n", 40) = 40
+
+[EOF]
+/home/cc/syscall_intercept/test/libcintercept2.log.match:1   $(S) $(XX) -- vfork()
+.log.vfork_logging:1         /lib/x86_64-linux-gnu/libc.so.6 0xe30da -- vfork() = ?
+FAIL: match.pl: /home/cc/syscall_intercept/test/libcintercept2.log.match:1 did not match pattern
+CMake Error at check_log.cmake:82 (message):
+  Log does not match! 255
+
+
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[in_child_created_using_vfork]
+"vfork_logging" end time: Jun 24 20:30 UTC
+"vfork_logging" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/43 Testing: syscall_format_logging
+43/43 Test: syscall_format_logging
+Command: "/usr/bin/cmake" "-DTEST_EXTRA_PRELOAD=" "-DTEST_PROG=/home/cc/syscall_intercept/test/syscall_format" "-DLIB_FILE=" "-DMATCH_FILE=/home/cc/syscall_intercept/test/syscall_format.log.match" "-DTEST_NAME=syscall_format_logging" "-DMATCH_SCRIPT=/home/cc/syscall_intercept/utils/match.pl" "-DEXPECT_SPURIOUS_SYSCALLS=OFF" "-P" "/home/cc/syscall_intercept/test/check_log.cmake"
+Directory: /home/cc/syscall_intercept/test
+"syscall_format_logging" start time: Jun 24 20:30 UTC
+Output:
+----------------------------------------------------------
+Executing: LD_PRELOAD=
+		INTERCEPT_ALL_OBJS=1
+		/home/cc/syscall_intercept/test/syscall_format  .log.syscall_format_logging
+<end of output>
+Test time =   0.37 sec
+----------------------------------------------------------
+Test Passed.
+"syscall_format_logging" end time: Jun 24 20:30 UTC
+"syscall_format_logging" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 24 20:30 UTC

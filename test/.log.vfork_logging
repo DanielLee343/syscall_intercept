@@ -1,0 +1,8 @@
+/lib/x86_64-linux-gnu/libc.so.6 0xe30da -- vfork() = ?
+/lib/x86_64-linux-gnu/libc.so.6 0xe3144 -- exit_group(0x0)
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after first vfork\n", 39) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after first vfork\n", 39) = 39
+/lib/x86_64-linux-gnu/libc.so.6 0xe30da -- vfork() = ?
+/lib/x86_64-linux-gnu/libc.so.6 0xe3179 -- execve(0x7ffe379ce0d3, 0x7ffe379cd368, 0x7ffe379cd360) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after second vfork\n", 40) = ?
+/lib/x86_64-linux-gnu/libc.so.6 0x10e075 -- write(1, "In original process, after second vfork\n", 40) = 40

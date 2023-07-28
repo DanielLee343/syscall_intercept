@@ -1,26 +1,34 @@
+#include <memory>
 #include <iostream>
-#include <array>
 
 class MyClass {
 public:
-    MyClass(int value) : data(value) {}
-
-    int getData() const {
-        return data;
+    MyClass() {
+        std::cout << "MyClass Constructor" << std::endl;
     }
 
-private:
-    int data;
+    ~MyClass() {
+        std::cout << "MyClass Destructor" << std::endl;
+    }
+
+    void SomeMethod() {
+        std::cout << "Executing SomeMethod" << std::endl;
+    }
 };
 
 int main() {
-    std::array<MyClass, 3> myArray = {MyClass(1), MyClass(2), MyClass(3)};
+    // Create a unique_ptr to an instance of MyClass
+    std::unique_ptr<MyClass> myPtr(new MyClass());
 
-    // Accessing and printing the data of each object in the array
-    for (const auto& obj : myArray) {
-        std::cout << obj.getData() << " ";
+    // Access the object using the arrow operator
+    myPtr->SomeMethod();
+
+    // Use the unique_ptr as needed
+    if (myPtr) {
+        // Do something with the object
     }
-    std::cout << std::endl;
+
+    // The unique_ptr will automatically deallocate the object when it goes out of scope
 
     return 0;
 }
